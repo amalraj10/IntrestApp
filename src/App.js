@@ -70,13 +70,13 @@ else{
   return (
     <div  style={{height:'100vh'}} className='d-flex justify-content-center align-items-center w-100 bg-dark'>
  <div className='bg-light p-5 rounded' style={{width:'500px'}} >
-   <h1>Simple Intrest App</h1>
-   <p>Calculate Simple Intrest Easily</p>
+   <h1>Simple Interest App</h1>
+   <p>Calculate Simple Interest Easily</p>
    <div className='bg-warning d-flex justify-content-center align-items-center w-100 p-4 rounded flex-column'>
     <h1>
-    ₹ { ' '}{Intrest}
+    ₹ { ' '}{Interest}
     </h1>
-    <p>Total Simple Intrest</p>
+    <p>Total Simple Interest</p>
    </div>
       <form onSubmit={handleCalculate} className='mt-5'>
 
